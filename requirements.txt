@@ -1,0 +1,8 @@
+adafruit-ampy
+click
+esptool
+pyserial
+pytest
+requests
+requests-mock
+setuptools
