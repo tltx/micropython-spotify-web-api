@@ -182,7 +182,7 @@ def load_credentials():
         assert credentials['refresh_token']
         assert credentials['client_id']
         assert credentials['client_secret']
-        assert credentials['device_id']
+        assert 'device_id' in credentials
     except (OSError, ValueError, FileNotFoundError, KeyError, AssertionError):
         return None
 
